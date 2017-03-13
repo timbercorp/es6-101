@@ -6,10 +6,6 @@ const profile = {
   age: 34
 }
 
-let name = 'Gustavo';
-
-console.log(`Hello ${ name }!`);
-
 console.log(chalk.cyan(`Happy birthday ${ profile.name } ${ profile.surname } for turning ${ profile.age }!`));
 
 console.log(chalk.red(`

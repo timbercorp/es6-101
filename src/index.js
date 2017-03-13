@@ -1,6 +1,8 @@
 const chalk = require('chalk');
 
-// console.log(chalk.cyan('Hello World!'));
+// To show the examples working, just uncomment the lines.
+
+console.log(chalk.cyan('Hello World!'));
 
 // require('./modules/variables');
 // require('./modules/scope');
@@ -9,4 +11,4 @@ const chalk = require('chalk');
 // require('./modules/template');
 // require('./modules/asynchrony');
 // require('./modules/fetch');
-require('./modules/miscellaneous');
+// require('./modules/miscellaneous');

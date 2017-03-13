@@ -8,11 +8,11 @@ let myObject = {
   c: 2
 }
 
-myNewArray = myArray;
-myOtherNewArray = [...myArray];
+let myNewArray = myArray;
+let myOtherNewArray = [...myArray];
 
-myNewObject = myObject;
-myOtherNewObject = Object.assign({}, myObject);
+let myNewObject = myObject;
+let myOtherNewObject = Object.assign({}, myObject);
 
 console.log(chalk.yellow('Is "myNewArray" the same as "myArray"?'), chalk.red(myNewArray === myArray));
 console.log(chalk.yellow('Is "myOtherNewArray" the same as "myArray"?'), chalk.cyan(myOtherNewArray === myArray));
